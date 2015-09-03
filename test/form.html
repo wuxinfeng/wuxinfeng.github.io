@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Untitled Document</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+</head>
+<body>
+    <script src=scripts/jquery-1.8.3.min.js></script>
+<script>
+$(function() {
+  $('#bt').click(function() {
+    $('#content').before('<div>'+$('#content').val());
+    $('#content').val('');
+  });
+});
+</script>
+<div id=root>留言<div>
+<textarea id=content></textarea>
+<input id =bt type=button value=保存>
+
+</body>
+</html>
