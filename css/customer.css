@@ -10,3 +10,7 @@ header img.img-animation  {
 	-webkit-transform: scale(1.12);
 	transform: scale(1.12);
 }
+.txt-indent {
+    text-indent:2em;
+}
+    
